@@ -5,7 +5,7 @@ class stack:
         self.values=[x]+self.values
     def pop(self):
         if self.values:
-            return self.values.pop(0)  # Remove from the top
+            return self.values.pop(0) 
         else:
             return "Stack is empty"
     
