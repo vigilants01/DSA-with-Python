@@ -8,4 +8,6 @@ arr=[10,23,45,66,75,5,6,7,4,6,4,3,66,99]
 print("Greatest Element",greatest(arr))
 
 
-
+#with max()
+arr=[10,23,45,66,75,5,6,7,4,6,4,3,66,99]
+print("Greatest Element",max(arr))
