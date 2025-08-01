@@ -40,6 +40,15 @@ class linkedlist:
                     break
                 tmp=tmp.next
                 count+=1
+
+    def delete_at_head(self):
+        self.head=self.head.next
+    
+    def delete_at_tale(self):
+        tmp = self.head
+        while tmp.next.next != None:
+            tmp=tmp.next
+        tmp.next=None
     
     def Print(self):
         tmp =self.head
@@ -53,8 +62,9 @@ ll.insert_at_head(30)
 ll.insert_at_head(20)
 ll.insert_at_head(10)
 ll.insert_at_last(40)
+ll.delete_at_tale()
 
 
 
-ll.insert_at_k(25,3)
+# ll.insert_at_k(25,3)
 ll.Print()

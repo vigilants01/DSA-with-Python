@@ -1,0 +1,1 @@
+ll.delete_at_tale()
