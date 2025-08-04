@@ -4,10 +4,9 @@ class solution:
         sum=0
         for i in range(0,len(nums)):
             sum+=nums[i]
-            if sum >=0:
-                if sum > max:
-                    max=sum
-            else:
+            if sum > max:
+                max=sum
+            if sum < 0:
                 sum=0
         return max
 s=solution()
