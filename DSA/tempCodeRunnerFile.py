@@ -1,3 +1,1 @@
-s.push(40)
-s.push(50)
-s.push(60)
+print("Top element:", s.top())
