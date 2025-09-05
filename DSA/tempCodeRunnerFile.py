@@ -1,1 +1,2 @@
-print("Top element:", s.top())
+print("Stack size:", s.sizeof())
+# print(s.all())
