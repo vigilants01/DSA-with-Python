@@ -7,4 +7,10 @@ class solution:
                 count+=1
                 if count > max:
                     max = count
+            else:
+                count=0
         return max
+    
+s=solution()
+num = [1,1,0,1,1,1]
+print(s.mcount(num))
